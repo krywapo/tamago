@@ -18,7 +18,8 @@ class Flexible extends Field
 
         $flexible
             ->setLocation('post_type', '==', 'page')
-                ->and('page_type', '==', 'front_page');
+                ->and('page_type', '==', 'front_page')
+                ->or('page', '==', 33);
 
         $flexible
         ->addRelationship('relationship_field', [
