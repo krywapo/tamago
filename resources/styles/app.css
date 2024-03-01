@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@splidejs/splide/dist/css/splide.min.css';
+
+#app {
+    max-width: 1620px;
+    margin: auto;
+} 
+#menu-menu li {
+    margin-left: 20px;
+}
+#main {
+    margin: 20px 0;
+}
